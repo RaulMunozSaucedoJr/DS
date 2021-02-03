@@ -1,11 +1,258 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, shrink-to-fit=yes maximum-scale=1.0, user-scalable=no" />
+    <!------------------------>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/Estilos.css">
+
+    <!-------------->
+    <!-- FONTS -->
+    <!--Cormorant Garamond -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <!-- Barlow Condensed -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap" rel="stylesheet">
+    <!-- Poiret One -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <!----------->
+    <!-- ICONO VENTANA NAVEGADOR -->
+    <link rel="shortcut icon" href="#" />
+    <!----------------------------->
+    <title>Diseños y Soluciones</title>
+
 </head>
+
 <body>
+
+    <header>
+        <div class="overlay"></div>
+        <video autoplay loop muted id="videoBG">
+            <source src="/VIDEO/VideoHeaderReducido.mp4" type="video/mp4" />
+        </video>
+        <div class="container  w-100">
+            <div class="d-flex h-100 w-100 text-center align-items-center">
+                <div class="w-100">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-5 pb-5">
+                        <h1 class="ml5">
+                            <span class="text-wrapper">
+                                <span class="letters letters-left">Contactenos</span>
+                            </span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BARRA DE NAVEGACIÓN INFERIOR -->
+    <nav class="navbar navbar-inverse fixed-top" id="navbar">
+        <div class="menu">
+            <ul>
+                <a href="#">
+                    <li><a href="/Home.html" id="a-menu">1. Home</a></li>
+                </a>
+                <a href="#">
+                    <li><a href="/Home-Servicios.html" id="a-menu">2. Servicios</a></li>
+                </a>
+                <a href="#">
+                    <li><a href="/Home-Galeria.html" id="a-menu">3. Galería</a> </li>
+                </a>
+                <a href="#">
+                    <li><a href="/PreguntasFrecuentes.html" id="a-menu">4. Preguntas
+                            Frecuentes</a> </li>
+                </a>
+                <a href="#">
+                    <li><a href="/Contacto.html" id="a-menu">5. Contacto</a> </li>
+                </a>
+            </ul>
+        </div>
+        <div class="menu-toggle align-items-center">
+            <div class="tool">
+                <div class="container ">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+                        <small class="text-center" id="small_menu">MENU</small><br>
+                        <img src="/ICON/MENU.svg" class="img-fluid pulsate-bck" id="Icono-Menu">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!---------------------------------->
+
+    <div class="container" id="ubicacion">
+        <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5 mb-5 pt-5 pb-5" id="formulario" data-aos="fade-down" data-aos-duration="1000">
+                    <form method="post" name="Contacto" netlify>
+                        <div class="row">
+
+                        <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="form-group pt-1 pb-1">
+                                <label for="nombre" class="Numero-Celular">Nombre Completo:</label>
+                                <input type="text" class="form-control form-control-lg" id="nombre">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="form-group pt-1 pb-1">
+                                <label for="correo" class="Numero-Celular">Correo Electrónico:</label>
+                                <input type="email" class="form-control form-control-lg" id="correo">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="form-group pt-1 pb-1">
+                                <label for="direcciones" class="Numero-Celular">Dirección:</label>
+                                <input type="text" class="form-control form-control-lg" id="direcciones">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-4 col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="form-group pt-1 pb-1">
+                                <label for="telefonos" class="Numero-Celular">Teléfono:</label>
+                                <input type="tel" class="form-control form-control-lg" id="telefonos">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                            <div class="form-group pt-1 pb-1">
+                                <label for="mensaje" class="Numero-Celular">Mensaje:</label>
+                                <textarea type="text" class="form-control form-control-lg" id="mensaje" rows="3">  
+                                </textarea>
+                            </div>
+                        </div>
+
+                        <div class="container-fluid d-flex justify-content-center pb-3" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="row">
+                                <button type="button" class="btn btn-outline-dark btn-lg" id="MostrarOcultarServicios">
+                                    Enviar
+                                    <img src="/ICON/Enviar.svg" class="img-fluid" id="Logo-Mostrar-Mas">
+                                </button>
+                            </div>
+                        </div>
+                              
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </div>
+
     
+
+    <footer class="page-footer pt-5">
+        <div class="footer-copyright text-center py-3">
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-2">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-2">
+                            <a href="https://github.com/RaulMunozSaucedoJr">
+                                <img src="/ICON/GithubSVG.svg" class="img-fluid" id="Iconos">
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-2">
+                            <a href="https://www.linkedin.com/in/ra%C3%BAl-jasiel-uriel-mu%C3%B1oz-saucedo-989b419a/">
+                                <img src="/ICON/LinkedinSVG.svg" class="img-fluid" id="Iconos">
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-2">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1>
+                                        <a href="/Home.html">
+                                            Home
+                                        </a>
+                                    </h1>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1>
+                                        <a href="/Home-Galeria.html">
+                                            Galería
+                                        </a>
+                                    </h1>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1>
+                                        <a href="/Home-Servicios.html">
+                                            Servicios
+                                        </a>
+                                    </h1>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1>
+                                        <a href="/PreguntasFrecuentes.html">
+                                            Preguntas Frecuentes
+                                        </a>
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center text-white mt-5 Sobre_Nosotros">
+                            <label class="Sobre_Nosotros text-center">© 2020 Copyright:</label>
+                        </div>
+                    </div>
+                    <a href="#" class="to-top align-items-center pb-3 pt-3">
+                        <small class="text-center">
+                            <img src="/ICON/up-arrow.svg" class="img-fluid" id="To-Up">
+                            Arriba
+                        </small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- ANIME JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js"
+        integrity="sha512-E378bwaeZf1nwXeJGIwTB58A5gPt5jFU3u6aTGja4ZdRFJeo/N/REKnBgNZOZlH6JdnOPO98vg2AnSGaNfCMFQ=="
+        crossorigin="anonymous"></script>
+    <!-------------->
+    <!-- ANIMATE ON SCROLL -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!----------------------->
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init(), 
+    anime.timeline({
+        loop: !1
+    }).add({
+        targets: ".ml5 .line",
+        opacity: [.5, 1],
+        scaleX: [0, 1],
+        easing: "easeInOutExpo",
+        duration: 1e3
+    }).add({
+        targets: ".ml5 .letters-left",
+        opacity: [0, 1],
+        translateX: ["0.5em", 0],
+        easing: "easeOutExpo",
+        duration: 600,
+        offset: "-=300"
+    })
+});
+    </script>
+    <script>
+        function MostrarOcultarContacto(){const t=document.getElementById("infocontacto"),e=document.getElementById("MostrarOcultarServicios");"none"===t.style.display?(t.style.display="block",e.style.display="none"):(t.style.display="none",e.style.display="block")}
+    </script>
+    <script type="text/javascript" src="/Scripts.js"></script>
 </body>
+
 </html>
