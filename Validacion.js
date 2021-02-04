@@ -1,5 +1,5 @@
-function Validacion() {
-    e.preventDefault();
+function Validacion(event) {
+    event.preventDefault();
 
     const formulario = document.getElementById("formulario");
 
@@ -46,6 +46,7 @@ function Validacion() {
         });
         return false;
     } else {
+        formulario.reset();
         return true;
     }
 
