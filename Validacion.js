@@ -1,7 +1,5 @@
-function Validacion(event) {
+function Validacion() {
     event.preventDefault();
-
-    const formulario = document.getElementById("formulario");
 
     const nombre = document.getElementById("nombreCliente");
     const direccion = document.getElementById("direccionCliente");
@@ -21,7 +19,6 @@ function Validacion(event) {
         });
         return false;
     } else {
-        formulario.reset();
         return true;
     }
 
