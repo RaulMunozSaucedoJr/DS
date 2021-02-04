@@ -66,8 +66,22 @@ textarea {
     outline: none;
 }
 
-label{
+::placeholder {
+    text-align: center;
+    color: black;
+}
+
+label {
     font-size: 1.2rem;
+}
+
+label#LabelContacto {
+    font-size: 2em;
+    color: black;
+    font-family: 'Poiret One', cursive;
+    text-emphasis: none;
+    text-align: center;
+    font-weight: lighter;
 }
 
 label#Estaciones-Metro {
@@ -177,13 +191,14 @@ picture {
     color: #fff
 }
 
-a:active,
-a:link,
-a:visited {
-    text-emphasis: none;
-    color: #000;
-    font-size: 1.5rem;
-    font-family: 'Poiret One', cursive;
+
+
+a:active#Regresar,
+a:link#Regresar,
+a:visited#Regresar {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Poiret One'cursive;
     text-transform: capitalize
 }
 
@@ -912,19 +927,15 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus,
-textarea[type="text"]{
+textarea[type="text"] {
     border-color: black;
     outline: 0 none;
 }
 
 .form-control:focus {
     box-shadow: none;
-  }
+}
 
-  textarea{
-      resize: none;
-  }
-
-  div#formulario{
-    border: 1px solid black;
-  }
+textarea {
+    resize: none;
+}
