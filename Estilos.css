@@ -191,14 +191,13 @@ picture {
     color: #fff
 }
 
-
-
-a:active#Regresar,
-a:link#Regresar,
-a:visited#Regresar {
-    color: white;
-    font-size: 2rem;
-    font-family: 'Poiret One'cursive;
+a:active,
+a:link,
+a:visited {
+    text-emphasis: none;
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Poiret One', cursive;
     text-transform: capitalize
 }
 
