@@ -13,4 +13,5 @@
             window.pageYOffset > 300 ? e.classList.add("active") : e.classList.remove("active")
         });
     });
+    
 }();
