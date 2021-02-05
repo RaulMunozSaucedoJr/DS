@@ -201,6 +201,10 @@ a:visited {
     text-transform: capitalize
 }
 
+small#rojo {
+    color: red;
+}
+
 a#Correo-Contacto {
     text-transform: lowercase
 }
