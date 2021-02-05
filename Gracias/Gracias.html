@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <!-- Required meta tags -->
@@ -32,28 +31,101 @@
 
 <body>
 
-    <header>
-        <div class="overlay"></div>
-        <video autoplay loop muted id="videoBG">
-            <source src="/VIDEO/VideoHeaderReducido.mp4" type="video/mp4" />
-        </video>
-        <div class="container w-100">
-            <div class="d-flex h-100 w-100 text-center align-items-center">
-                <div class="w-100">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-5 pb-5">
-                        <h1 class="ml5">
-                            <span class="text-wrapper pt-5">
-                                <span class="letters letters-left pt-5">
-                                    Gracias por contactarnos.
-                                </span>
-                            </span>
-                        </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5 mb-5 pt-5 pb-5" id="formulario"
+                data-aos="fade-down" data-aos-duration="2000">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="caja mt-5 mb-5 pt-5 pb-5 text-center">
+                        <div class="diagonal">
+                            <h3 class="pb-3">
+                                GRACIAS POR CONTACTAR CON NOSTROS.
+                            </h3>
+                            <p class="p-diagonal pt-2 pb-2 mt-2 mb-2">
+                                Puede regresar al inicio de nuestro sitio haciendo click aquí:<br><br>
+                                <a class="pt-5 pb-5 mb-5 mt-5" href="/Home.html">
+                                    <img src="/ICON/HOME.svg" class="img-fluid" id="Logo-Mostrar-Mas"><br>
+                                    INICIO
+                                </a>
+                            </p>
+                        </div>
                     </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer pt-5">
+        <div class="footer-copyright text-center py-3">
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-2">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-2">
+                            <a href="https://github.com/RaulMunozSaucedoJr">
+                                <img src="/ICON/GithubSVG.svg" class="img-fluid" id="Iconos">
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-2">
+                            <a href="https://www.linkedin.com/in/ra%C3%BAl-jasiel-uriel-mu%C3%B1oz-saucedo-989b419a/">
+                                <img src="/ICON/LinkedinSVG.svg" class="img-fluid" id="Iconos">
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-2">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"> 
+                                    <h1>
+                                        <a href="/Home.html">
+                                           Home
+                                        </a>
+                                    </h1>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"> 
+                                    <h1>
+                                        <a href="/Home-Galeria.html">
+                                            Galería
+                                        </a>
+                                    </h1>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1>
+                                        <a href="/Home-Servicios.html">
+                                            Servicios
+                                        </a>
+                                    </h1>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1>
+                                        <a href="/Contacto.html">
+                                            Contacto
+                                        </a>
+                                    </h1>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1>
+                                        <a href="/PreguntasFrecuentes.html">
+                                            Preguntas Frecuentes
+                                        </a>
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center text-white mt-5 Sobre_Nosotros">
+                            <label class="Sobre_Nosotros text-center">© 2020 Copyright:</label>
+                        </div>
+                    </div>
+                    <a href="#" class="to-top align-items-center pb-3 pt-3">
+                        <small class="text-center">
+                            <img src="/ICON/up-arrow.svg" class="img-fluid" id="To-Up">
+                            Arriba
+                        </small>
+                    </a>
                 </div>
             </div>
         </div>
-    </header>
-
+    </footer>
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"
@@ -64,14 +136,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <!-- ANIME JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js"
         integrity="sha512-E378bwaeZf1nwXeJGIwTB58A5gPt5jFU3u6aTGja4ZdRFJeo/N/REKnBgNZOZlH6JdnOPO98vg2AnSGaNfCMFQ=="
         crossorigin="anonymous"></script>
     <!-------------->
+    <!-- ANIMATE ON SCROLL -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!----------------------->
     <script>
     document.addEventListener("DOMContentLoaded", function() {
-        anime
+        AOS.init(),
+            anime
             .timeline({
                 loop: !1,
             })
@@ -92,6 +170,7 @@
             });
     });
     </script>
+    <script src="/Scripts.js"></script>
 </body>
 
 </html>
