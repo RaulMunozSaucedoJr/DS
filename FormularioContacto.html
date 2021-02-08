@@ -1,83 +1,115 @@
+<html>
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>netlify scratch site</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, shrink-to-fit=yes maximum-scale=1.0, user-scalable=no" />
+    <!------------------------>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="/Estilos.css" />
+
+    <!-------------->
+    <!-- FONTS -->
+    <!--Cormorant Garamond -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet" />
+    <!-- Barlow Condensed -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap" rel="stylesheet" />
+    <!-- Poiret One -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet" />
+    <!----------->
+    <!-- ICONO VENTANA NAVEGADOR -->
+    <link rel="shortcut icon" href="#" />
+    <!----------------------------->
+    <title>Diseños y Soluciones</title>
 </head>
+
 <body>
+
     <div class="container">
         <div class="row">
-            <div class="col">
-                <h1>a netlify form with recaptcha 2</h1>
-                <p>page/form uses bootstrap 4</p>
-                <p>validation js in <a href="/js/main.js">js/main.js</a></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <form name='sendmessageform' class='needs-validation' method='POST' data-netlify-recaptcha='true' action='/confirmation-receipt' novalidate><input type='hidden' name='form-name' value='sendmessageform' />
-                    <div class="form-row mb-3">
-                        <div class="col">
-                            <input type="text" name="first_name" class="form-control" placeholder="First Name (required)" aria-label="first name" required>
-                            <div class="invalid-feedback">Missing first name</div>
-                        </div>
-                        <div class="col">
-                            <input type="text" name="last_name" class="form-control" placeholder="Last Name (required)" aria-label="last name" required>
-                            <div class="invalid-feedback">Missing last name</div>
-                        </div>
-                    </div>
-                    <div class="form-row mb-3">
-                        <div class="col">
-                            <input type="email" name="email" class="form-control" placeholder="Email Address (required)" aria-label="provide email address" required>
-                            <div class="invalid-feedback">Please provide a valid email address</div>
-                        </div>
-                    </div>
-                    <div class="form-row mb-3">
-                        <div class="col">
-                            <input type="tel" name="phone" class="form-control" placeholder="Phone" aria-label="provide phone number">
-                        </div>
-                    </div>
-                    <div class="form-row mb-3">
-                        <div class="col">
-                            <textarea name="message" rows="5" class="form-control" placeholder="Your Message (required)" aria-label="type your message" required></textarea>
-                            <div class="invalid-feedback">Please include a message before submitting.</div>
-                        </div>
-                        <div class="col-2 d-none">
-                            <input type="text" name="subject" value="custom webform submission message" class="form-control">
-                        </div>
-                    </div>
-                    <div class="form-row mb-3">
-                        <div class='col'><script src='https://www.google.com/recaptcha/api.js'></script>
-<div class='g-recaptcha' data-sitekey='6LdAvUIUAAAAAHjrjmjtNTcXyKm0WKwefLp-dQv9'></div>
-<noscript>
-  <div>
-  <div style="width: 302px; height: 422px; position: relative;">
-  <div style="width: 302px; height: 422px; position: absolute;">
-  <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LdAvUIUAAAAAHjrjmjtNTcXyKm0WKwefLp-dQv9" frameborder="0" scrolling="no"
-    style="width: 302px; height:422px; border-style: none;">
-  </iframe>
-  </div>
-  </div>
-  <div style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
-    <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
-      style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;" >
-    </textarea>
-  </div>
-  </div>
-</noscript>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5 mb-5 pt-2 pb-2" id="formulario"
+                data-aos="fade-down" data-aos-duration="2000">
 
+                <form method="POST" class="formulario needs-validation" data-netlify-recaptcha="true" action="/Gracias/Gracias.html" id="formulario" type="hidden" name="formulario" netlify novalidate>
+                    <div class="row">
+                        
+                        <div class="container-fluid d-flex justify-content-center pt-5 pb-5">
+                            <label class="Numero-Celular text-center align-items-center" id="LabelContacto">Contacto</label>
+                        </div>
+
+                        <div class="col-6 pt-2 pb-2">
+                            <label class="Numero-Celular">Nombre</label>
+                            <input type="text" class="form-control" placeholder="Nombre" id="nombreCliente" aria-label="nombreCliente" name="nombre">
+                            <div class="invalid-feedback"><small id="rojo">Requerimos su(s) Nombre(s)</small></div>
+                        </div>
+                        <div class="col-6 pt-2 pb-2">
+                            <label class="Numero-Celular">Dirección</label>
+                            <input type="text" class="form-control" placeholder="Dirección" id="direccionCliente"  aria-label="direccionCliente" name="direccionCliente">
+                            <div class="invalid-feedback"><small id="rojo">Requerimos su dirección</small></div>
+                        </div>
+                        <div class="col-6 pt-2 pb-2">
+                            <label class="Numero-Celular">Correo </label>
+                            <input type="email" class="form-control" placeholder="correo@gmail.com" id="correoCliente"  aria-label="correoCliente" name="correoCliente">
+                            <div class="invalid-feedback"><small id="rojo">Requerimos su correo electrónico</small></div>
+                        </div>
+                        <div class="col-6 pt-2 pb-2">
+                            <label class="Numero-Celular">Teléfono</label>
+                            <input type="tel" class="form-control" placeholder="55-XXXX-XXXX" id="numeroCliente"  aria-label="numeroCliente" name="numeroCliente">
+                            <div class="invalid-feedback"><small id="rojo">Requerimos su numero telefónico</small></div>
+                        </div>
+                        <div class="col-12 pt-2 pb-2">
+                            <label class="Numero-Celular">Mensaje</label>
+                            <textarea type="text" class="form-control" placeholder="Mensaje" id="mensajeCliente" name="mensajeCliente"  aria-label="mensajeCliente" row="3" col="3"></textarea>
+                            <div class="invalid-feedback"><small id="rojo">Requerimos su motivo por el que desea contactarnos.</small></div>
+                        </div>
+                        <div class="col-12 pt-2 pb-2">
+                            <div data-netlify-recaptcha="true"></div>
+                            <label class="">SE LE RECUERDA QUE <strong id="rojo">SI NO MARCA ESTA CASILLA</strong> EL FORMULARIO SE REINICIARÁ Y/O NO MANDARÁ SUS DATOS.</label>
+                        </div>
+                        <div class="col-12">
+                            <div class="container-fluid d-flex justify-content-center pt-5 pb-5" data-aos="fade-up" data-aos-duration="1000">
+                                <div class="row">
+                                    <button type="submit" class="btn btn-outline-dark btn-lg" id="MostrarOcultarServicios">
+                                        Enviar
+                                        <img src="/ICON/Contactenos.svg" class="img-fluid" id="Logo-Mostrar-Mas">
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-danger" aria-label="submit form">submit</button>
                 </form>
+
             </div>
         </div>
     </div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <!-------------->
+    <!-- ANIMATE ON SCROLL -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!----------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" 
+    integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="/Scripts.js"></script>
+    <script src="/main.js"></script>
 </body>
+
 </html>
