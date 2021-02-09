@@ -104,6 +104,9 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-3 pb-3">
                 <div id="mapa"></div>
             </div>
+
+            <div class="elfsight-app-cd2c90b4-a796-42a2-ace7-41d651347873"></div>
+
         </div>
     </div>
 
@@ -257,7 +260,7 @@
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
     <!-------------->
-    
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <script>
         document.addEventListener("DOMContentLoaded",function(){if(mapa){var e=L.map("mapa").setView([19.4532154,-99.0854989],11);L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(e),e.locate({setView:!1,maxZoom:11}),L.marker([19.4248151,-99.1730906]).addTo(e).bindPopup("Diseños y Soluciones").openPopup()}AOS.init(),anime.timeline({loop:!1}).add({targets:".ml5 .line",opacity:[.5,1],scaleX:[0,1],easing:"easeInOutExpo",duration:1e3}).add({targets:".ml5 .letters-left",opacity:[0,1],translateX:["0.5em",0],easing:"easeOutExpo",duration:600,offset:"-=300"})});
     </script>
