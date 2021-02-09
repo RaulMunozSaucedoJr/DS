@@ -210,7 +210,7 @@ a#Correo-Contacto {
 }
 
 div.invalid-feedback {
-    font-size: 2rem;
+    font-size: 1.2em;
     text-transform: capitalize;
     font-family: 'Barlow Condensed', sans-serif;
 }
