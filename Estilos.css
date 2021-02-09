@@ -215,6 +215,10 @@ div.invalid-feedback {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+div#FormularioDeContacto {
+    background-color: #d2ccc4;
+}
+
 h1,
 h2,
 h3,
