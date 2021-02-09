@@ -209,6 +209,12 @@ a#Correo-Contacto {
     text-transform: lowercase
 }
 
+div.invalid-feedback {
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
 h1,
 h2,
 h3,
