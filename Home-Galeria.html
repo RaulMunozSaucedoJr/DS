@@ -396,7 +396,7 @@
     <script src="/Scripts.js"></script>
 
     <script>
-        document.addEventListener("DOMContentLoaded",function(){$('[data-fancybox="antes-despues"]').fancybox({buttons:["slideShow","share","zoom","fullScreen","close","thumbnails","arrows"],protect:!0});var e=document.querySelector(".galeria"),t=new Flickity(e,{imagesLoaded:!0,percentPosition:!1}),a=e.querySelectorAll(".carousel-cell img"),n="string"==typeof document.documentElement.style.transform?"transform":"WebkitTransform";t.on("scroll",function(){t.slides.forEach(function(e,o){var s=a[o],r=-1*(e.target+t.x)/3;s.style[n]="translateX("+r+"px)"})}),AOS.init(),anime.timeline({loop:!1}).add({targets:".ml5 .line",opacity:[.5,1],scaleX:[0,1],easing:"easeInOutExpo",duration:1e3}).add({targets:".ml5 .letters-left",opacity:[0,1],translateX:["0.5em",0],easing:"easeOutExpo",duration:600,offset:"-=300"})});
+        document.addEventListener("DOMContentLoaded",function(){$('[data-fancybox="antes-despues"]').fancybox({buttons:["slideShow","share","zoom","fullScreen","close","thumbnails","arrows"]});var e=document.querySelector(".galeria"),t=new Flickity(e,{imagesLoaded:!0,percentPosition:!1}),a=e.querySelectorAll(".carousel-cell img"),n="string"==typeof document.documentElement.style.transform?"transform":"WebkitTransform";t.on("scroll",function(){t.slides.forEach(function(e,o){var s=a[o],r=-1*(e.target+t.x)/3;s.style[n]="translateX("+r+"px)"})}),AOS.init(),anime.timeline({loop:!1}).add({targets:".ml5 .line",opacity:[.5,1],scaleX:[0,1],easing:"easeInOutExpo",duration:1e3}).add({targets:".ml5 .letters-left",opacity:[0,1],translateX:["0.5em",0],easing:"easeOutExpo",duration:600,offset:"-=300"})});
     </script>
 
 </body>
