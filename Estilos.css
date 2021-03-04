@@ -646,7 +646,7 @@ button#MostrarOcultarServicios {
     border-color: #000
 }
 
-a#MostrarOcultarServicios,
+a#MostrarOcultarServicios>:hover,
 button#MostrarOcultarServicios:hover {
     border-color: #000;
     color: #000;
