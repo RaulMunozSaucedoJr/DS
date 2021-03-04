@@ -632,6 +632,7 @@ button.accordion:hover {
     scroll-behavior: smooth
 }
 
+a,
 button#MostrarOcultarServicios {
     border-radius: 0;
     border-color: transparent;
@@ -645,6 +646,7 @@ button#MostrarOcultarServicios {
     border-color: #000
 }
 
+a,
 button#MostrarOcultarServicios:hover {
     border-color: #000;
     color: #000;
